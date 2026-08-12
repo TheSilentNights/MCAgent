@@ -18,10 +18,22 @@ repositories {
     name = "papermc"
     url = uri("https://repo.papermc.io/repository/maven-public/")
   }
+  maven {
+    name = "extendedclip"
+    url = uri("https://repo.extendedclip.com/releases/")
+  }
+  maven {
+    name = "citizens-repo"
+    url = uri("https://maven.citizensnpcs.co/repo")
+  }
 }
 
 dependencies {
   compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
+  compileOnly("me.clip:placeholderapi:2.12.3")
+  compileOnly("net.citizensnpcs:citizens-main:2.0.35-SNAPSHOT") {
+    exclude("*")
+  }
 }
 
 if (!destDir.isNullOrEmpty()) {
