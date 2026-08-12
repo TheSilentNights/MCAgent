@@ -1,0 +1,6 @@
+name: MCAgent
+version: 1.0.0
+main: cn.thesilentnights.mcagent.MCAgent
+description: An agent plugin for Minecraft server
+author: TheSilentNights
+api-version: '1.20'
