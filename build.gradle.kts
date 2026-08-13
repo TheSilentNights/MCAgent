@@ -29,9 +29,9 @@ repositories {
 }
 
 dependencies {
-  compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
+  compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT")
   compileOnly("me.clip:placeholderapi:2.12.3")
-  compileOnly("net.citizensnpcs:citizens-main:2.0.35-SNAPSHOT") {
+  compileOnly("net.citizensnpcs:citizens-main:2.0.39-SNAPSHOT") {
     exclude("*")
   }
 }
